@@ -43,28 +43,28 @@
             #binding-cells = <0>;
             tap-ms = <0>;
             wait-ms = <0>;
-            bindings = <&macro_tap &kp UP &kp RIGHT>;
+            bindings = <&kp UP &kp RIGHT>;
         };       
         up_left: up_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <0>;
             wait-ms = <0>;
-            bindings = <&macro_tap &kp UP &kp LEFT>;
+            bindings = <&kp UP &kp LEFT>;
         };
         down_right: down_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <0>;
             wait-ms = <0>;
-            bindings = <&macro_tap &kp DOWN &kp RIGHT>;
+            bindings = <&kp DOWN &kp RIGHT>;
         };
         down_left: down_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <0>;
             wait-ms = <0>;
-            bindings = <&macro_tap &kp DOWN &kp LEFT>;
+            bindings = <&kp DOWN &kp LEFT>;
         };
     };
 
